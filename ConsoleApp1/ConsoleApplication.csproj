@@ -57,5 +57,15 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NinjaDomain.Classes\NinjaDomain.Classes.csproj">
+      <Project>{55ebe758-5524-4def-9be4-e8a741a242ae}</Project>
+      <Name>NinjaDomain.Classes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NinjaDomain.DataModel\NinjaDomain.DataModel.csproj">
+      <Project>{b7e0047d-c89a-4bc3-8394-0a9aca946fa8}</Project>
+      <Name>NinjaDomain.DataModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

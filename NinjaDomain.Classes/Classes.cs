@@ -18,7 +18,6 @@ namespace NinjaDomain.Classes
             EquipmentOwned = new List<NinjaEquipment>();
         }
     }
-
     public class Clan
     {
         public int Id { get; set; }
